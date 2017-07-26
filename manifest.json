@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Hct Test",
+	"description": "Hct Test",
+	"version": "0.1",
+	"browser_action" : {
+		"default_popup": "popup.html",
+		"default_icon": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://*.facebook.com/*", "*://facebook.com/*"],
+			"js": ["jquery.js", "jquery.cookie.js","content.js"]
+		}
+	]
+
+}
