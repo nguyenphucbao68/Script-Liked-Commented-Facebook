@@ -1,6 +1,6 @@
 var userId = $.cookie("c_user");
-var idGroup = 707436202770775 // Bạn tự setup
-var idPost = 788504734663921 // Bạn có thể cho tự động GET Id Post...
+var idGroup = ""; // Bạn tự setup
+var idPost = ""; // Bạn có thể cho tự động GET Id Post...
 var dtsg = $("input[name='fb_dtsg']").val();
 var Handle = returnToken(dtsg, userId).then(function(data){ // Vì đây là thuộc tính Promise, nên phải dùng hàm .then để gọi Value ra
 	var token = data.match(/access_token=(.*)(?=&expires_in)/)[1]; // Đây là Token của chúng ta
