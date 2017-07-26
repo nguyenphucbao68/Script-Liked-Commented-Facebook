@@ -1,0 +1,11 @@
+._42ef ._6-_:after{
+  content: ' - Lớp 9/10 ~ Trần Quang Khải';
+  color: black;
+}
+
+._42ef ._6-_:before{
+  content: 'Hot Face : ';
+  font-weight: 100;
+  font-style: italic;
+  color: orange;
+}
