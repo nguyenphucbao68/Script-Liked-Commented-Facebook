@@ -1,12 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Hct Test",
-	"description": "Hct Test",
+	"name": "Liked Commented Facebook",
+	"description": "Liked Commented Facebook",
 	"version": "0.1",
-	"browser_action" : {
-		"default_popup": "popup.html",
-		"default_icon": "icon.png"
-	},
 	"content_scripts": [
 		{
 			"matches": ["*://*.facebook.com/*", "*://facebook.com/*"],
